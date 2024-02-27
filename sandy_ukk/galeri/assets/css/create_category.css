@@ -1,0 +1,63 @@
+/* Set a dark background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff; /* Set text color to pure white */
+}
+
+/* Styles for h1 */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Styles for the form container */
+.container {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+/* Styles for the form */
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* Styles for form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ddd;
+}
+
+/* Styles for form inputs */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #ddd;
+}
+
+/* Styles for form submit button */
+input[type="submit"] {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #777;
+}

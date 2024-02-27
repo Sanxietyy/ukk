@@ -1,0 +1,90 @@
+/* Set a dark background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff; /* Set text color to pure white */
+}
+
+/* Styles for h1 */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Styles for the container */
+.container {
+    margin-top: 5rem;
+}
+
+/* Styles for the table */
+.table {
+    background-color: #333;
+    color: #ddd;
+    border-radius: 6px; /* Added border-radius */
+    overflow: hidden; /* Hide border-radius overflow */
+}
+
+/* Styles for table headers */
+.table th {
+    color: white;
+    background-color: #333;
+}
+
+/* Styles for table rows */
+.table tr {
+    background-color: #333;
+}
+
+/* Styles for table cells */
+.table td {
+    background-color: #333;
+    color: #ddd;
+    padding: 10px;
+}
+
+
+/* Styles for the create category link */
+.container p a {
+    color: #ddd;
+}
+
+/* Styles for the create category link inside the container */
+.container a {
+    color: #ddd;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%; /* Make the link cover the entire button height */
+}
+
+/* Styles for the button */
+.category.category-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #ddd;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; /* Added transition property */
+    position: relative; /* Added position relative */
+}
+
+/* Hover effect for the button */
+.category.category-link:hover {
+    background-color: #555;
+    transform: translateY(-4px); /* Move the button 4px up on hover */
+}
+
+/* Styles for the wrapper div */
+#wraper {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    font-family: Arial, sans-serif;
+}

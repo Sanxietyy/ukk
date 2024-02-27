@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --bg-color-primary : #121212;
+    --bg-color-secondary : #e7e7e7;
+    --text-color-primary : #e7e7e7;
+    --text-color-secondary : #121212;
+    font-size: 12px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: var(--bg-color-primary);
+    color: var(--text-color-primary);
+}
+
+.container {
+    font-size: 3rem;
+    text-align: center;
+    border: #e4e4e4 solid 2px;
+    background: linear-gradient(to right, #ad4141, #ff7f50); /* Gradient background color */
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease; /* Transition effect for border animation */
+}
+
+.container:hover {
+    transform: translateY(-6px); /* Rotate the container on hover for a fancy border animation */
+}
+
+
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Eye icon style for password input field */
+.bi-eye-fill {
+    font-size: 1.25rem;
+    color: #555;
+    cursor: pointer; /* Change cursor to pointer on hover for user interaction */
+}
+
+/* Positioning the eye icon inside the input field */
+.inputwrap {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Styling for the eye icon on hover */
+.bi-eye-fill:hover {
+    color: #333; /* Change color on hover for better visibility */
+}
+
